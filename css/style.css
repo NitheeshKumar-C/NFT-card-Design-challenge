@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: 20rem;
+    border-radius: 0.9375rem;
+    box-shadow: 0 1.25rem 1.25rem rgb(2, 0, 32);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+.content{
+    margin: 0.9375rem;
+}
+.nft-img{
+    border-radius: 0.9375rem;
+    width: 18rem;
+    display: inline;
+}
+.overlay{
+    position: absolute;
+    top:0.9375rem;
+    border-radius: 0.9375rem;
+    background-color: hsla(178, 100%, 50%, 0.363);
+    width: 18rem;
+    height: 18rem;
+    opacity: 0;
+    transition: .5s ease;
+}
+.view{
+        color: white;
+        font-size: 1.25rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+}
+.nft-name{
+    color: white;
+    margin-top: 0.625rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.nft-des{
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    margin: 1.25rem 0 1.25rem 0;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    height: 1.0625rem;
+    position: relative;
+    top: 0.125rem;
+}
+.amount{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+.daysleft,.co{
+    color: hsl(215, 51%, 70%);
+}
+hr{
+    border: 0.000625rem solid hsl(215, 32%, 27%);
+}
+.dp{
+    float: left;
+    margin-right: 0.9375rem;
+    border: 0.0625rem solid white;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    align-self: left;
+}
+.madeby{
+    margin: 20px 0 40px 0;
+}
+.by{
+    padding: 5px 0 0 0;
+}
+/* ------------ hover ------------ */
+
+.nft-name:hover{
+    color: hsl(178, 100%, 50%);
+}
+.name:hover{
+    color: hsl(178, 100%, 50%);
+}
+.overlay:hover{
+    opacity: 1;
+}
+/* media queries */
+@media (max-width: 300px){
+    body{
+        text-align: center;
+    }
+    .container{
+        position: static;
+        padding: 5px;
+        transform: none;
+    }
+    .overlay{
+        top: 1.3rem;
+    }
+    .dp{
+        float: none;
+    }
+}
