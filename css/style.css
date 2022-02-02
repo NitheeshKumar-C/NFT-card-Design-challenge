@@ -100,15 +100,15 @@ hr{
 
 .nft-name:hover{
     color: hsl(178, 100%, 50%);
-    cursor: pointer;
+    cursor:pointer;
 }
 .name:hover{
     color: hsl(178, 100%, 50%);
-    cursor: pointer;
+    cursor:pointer;
 }
 .overlay:hover{
     opacity: 1;
-    cursor: pointer;
+    cursor:pointer;
 }
 /* media queries */
 @media (max-width: 300px){
