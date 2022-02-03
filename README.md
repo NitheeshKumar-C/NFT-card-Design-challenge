@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/NitheeshKumar-C/NFT-card-Design-challenge)
+- Solution URL: (https://www.frontendmentor.io/solutions/plain-htmlcss-400lrJQlP)
 - Live Site URL: (https://nitheeshkumar-c.github.io/NFT-card-Design-challenge/)
 
 ## My process
